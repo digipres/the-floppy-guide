@@ -1,0 +1,32 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: guide-to-imaging-obscure-floppies
+  title: A Guide To Imaging Obscure Floppy Disk Formats
+  github: https://github.com/digipres/guide-to-imaging-obscure-floppies
+  license:
+    content: CC-BY-4.0
+  open_access: true
+  subject: ""
+  # description:
+  # keywords: []
+  # authors: []
+  downloads: []
+  abbreviations:
+    DPC: Digital Preservation Coalition
+
+  # Now, the actual contents:
+  toc:
+  - file: index.md
+    
+site:
+  template: book-theme
+  options:
+    logo_text: Imaging Obscure Floppies
+    favicon: ./images/favicon.ico
+    logo: ./images/dpc_cmyk_Portrait.svg
+    logo_dark: ./images/DPCLogoOnly_White.svg
+    folders: true # Do not flatten URLs
+  actions:
+   - title: DigiPres.org
+     url: https://digipres.org/
