@@ -1,7 +1,7 @@
 # Currently, specify all the outputs we want:
 pubs = imaging-obscure-floppies.epub imaging-obscure-floppies.pdf
 
-all: $(pubs) myst
+all: $(pubs)
 
 imaging-obscure-floppies.epub:
 	pandoc "index.md" \
