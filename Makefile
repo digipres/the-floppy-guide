@@ -1,7 +1,7 @@
 # Currently, specify all the outputs we want:
 pubs = imaging-obscure-floppies.epub imaging-obscure-floppies.pdf
 
-all: $(pubs)
+all: $(pubs) myst
 
 imaging-obscure-floppies.epub:
 	pandoc "index.md" \
@@ -12,8 +12,10 @@ imaging-obscure-floppies.epub:
         -o "imaging-obscure-floppies.epub"
 
 imaging-obscure-floppies.pdf:
-	myst build --all
+	myst build --pdf
 
+myst:
+	myst build --html
 
 clean:
-	rm $(pubs)
+	rm -fr $(pubs) _build
