@@ -23,9 +23,9 @@ site:
   template: book-theme
   options:
     logo_text: Imaging Obscure Floppies
-    favicon: ./images/favicon.ico
-    logo: ./images/dpc_cmyk_Portrait.svg
-    logo_dark: ./images/DPCLogoOnly_White.svg
+    favicon: ./favicon.ico
+    logo: ./logo-light.svg
+    logo_dark: ./logo-dark.svg
     folders: true # Do not flatten URLs
   actions:
    - title: DigiPres.org

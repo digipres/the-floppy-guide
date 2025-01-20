@@ -38,6 +38,13 @@ jobs:
         run: npm install -g mystmd
       - name: Install Typst
         uses: typst-community/setup-typst@v3
+      - name: Install TeXLive
+        uses: teatimeguest/setup-texlive-action@v3
+        with:
+          packages: |
+            scheme-basic
+            hyperref
+            microtype
       - name: Install Pandoc
         uses: pandoc/actions/setup@v1
       - name: Build All Assets

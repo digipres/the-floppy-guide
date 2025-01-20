@@ -19,6 +19,7 @@ tags:
 thumbnail: ./media/image7.png
 exports:
   - format: pdf
+    #template: plain_latex_book
     template: lapreprint-typst
     output: ./imaging-obscure-floppies.pdf
 downloads:
