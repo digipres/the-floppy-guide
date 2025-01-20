@@ -1,10 +1,19 @@
-# Currently, specify all the ePubs we want. Can probabably wildcard
-pubs = implement/imaging-floppy-disks/exports/index.epub prof-development/dp-competency/exports/index.epub
+# Currently, specify all the outputs we want:
+pubs = imaging-obscure-floppies.epub imaging-obscure-floppies.pdf
 
 all: $(pubs) myst
 
-$(pubs): %/exports/index.epub: %/index.md
-	cd $(dir $<); pandoc index.md -o exports/index.epub
+imaging-obscure-floppies.epub:
+	pandoc "index.md" \
+        -f commonmark_x \
+        --toc \
+        --standalone \
+        --metadata=cover-image:"media/image7.png" \
+        -o "imaging-obscure-floppies.epub"
 
-myst:
+imaging-obscure-floppies.pdf:
 	myst build --all
+
+
+clean:
+	rm $(pubs)

@@ -36,8 +36,12 @@ jobs:
           node-version: 18.x
       - name: Install MyST Markdown
         run: npm install -g mystmd
-      - name: Build HTML Assets
-        run: myst build --html
+      - name: Install Typst
+        uses: typst-community/setup-typst@v3
+      - name: Install Pandoc
+        uses: pandoc/actions/setup@v1
+      - name: Build All Assets
+        run: make
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

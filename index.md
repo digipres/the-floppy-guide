@@ -1,6 +1,7 @@
 ---
 title: "A Guide To Imaging Obscure Floppy Disk Formats"
 subtitle: Part of the Future Nostalgia project
+short_title: The Guide
 authors:
   - name: Leontien Talboom
     affiliation: Cambridge University Library
@@ -11,8 +12,7 @@ authors:
   - name: Chris Knowles
     affiliation: Churchill Archives Centre
 date: 2024-07-12
-github: https://github.com/Digital-Preservation-Coalition/digipres-publications/blob/main/implement/imaging-floppy-disks/index.md 
-subject: Implement Digital Preservation
+subject: Part of the Future Nostalgia project
 tags:
 - Floppy Disks
 - Media Migration
@@ -20,15 +20,14 @@ thumbnail: ./media/image7.png
 exports:
   - format: pdf
     template: lapreprint-typst
-    output: exports/imaging-floppy-disks.pdf
+    output: ./imaging-obscure-floppies.pdf
 downloads:
   - file: index.md
-    filename: imaging-floppy-disks.md
+    filename: ./imaging-obscure-floppies.md
     title: Markdown
-  - file: exports/imaging-floppy-disks.pdf
+  - file: ./imaging-obscure-floppies.pdf
     title: PDF
-  - file: exports/index.epub
-    filename: imaging-floppy-disks.epub
+  - file: ./imaging-obscure-floppies.epub
     title: ePub
 ---
 :::{warning} Status: Update In Progress

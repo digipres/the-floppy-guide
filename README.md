@@ -31,4 +31,19 @@ But you don't need the metadata field there if you add it to the frontmatter.
 
 MystMD setup
 
+https://mystmd.org/guide/installing
+
+npm install -g mystmd
+
+myst start
+
+
+
+Enable Pages
+
+https://github.com/digipres/guide-to-imaging-obscure-floppies/settings/pages
+
+
 Makefile
+
+
