@@ -22,11 +22,11 @@ project:
 site:
   template: book-theme
   options:
-    logo_text: Imaging Obscure Floppies
+    logo_text: "Home"
     favicon: ./favicon.ico
     logo: ./logo-light.svg
     logo_dark: ./logo-dark.svg
     folders: true # Do not flatten URLs
   actions:
-   - title: DigiPres.org
+   - title: Part of digipres.org
      url: https://digipres.org/

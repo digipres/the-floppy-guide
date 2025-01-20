@@ -12,7 +12,7 @@ authors:
   - name: Chris Knowles
     affiliation: Churchill Archives Centre
 date: 2024-07-12
-subject: Part of the Future Nostalgia project
+subject: Imaging Obscure Floppies
 tags:
 - Floppy Disks
 - Media Migration
@@ -32,9 +32,9 @@ downloads:
     title: ePub
 ---
 :::{warning} Status: Update In Progress
-This first version of this guide was created for a workshop at iPRES 2024. It is being updated and becoming hosted by the DPC as part of the [Future Nostalgia](https://www.lib.cam.ac.uk/stories/floppy-disk-funding) project.
+This first version of this guide was created for a workshop at iPRES 2024. It is being updated and republished in this new format as part of the [Future Nostalgia](https://www.lib.cam.ac.uk/stories/floppy-disk-funding) project.
 
-The source for this publication is [here](https://github.com/Digital-Preservation-Coalition/digipres-publications/blob/main/implement/imaging-floppy-disks/index.md) and comments and contributions are welcome via GitHub.
+The source for this publication is [here](https://github.com/digipres/guide-to-imaging-obscure-floppies) and comments and contributions are welcome via GitHub.
 :::
 
 :::{aside}
