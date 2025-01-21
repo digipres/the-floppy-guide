@@ -26,14 +26,16 @@ exports:
     # These two are documented but not supported yet it seems:
     # theme: "red.darken(20%)"
     # paper-size: "A4"
-    output: ./imaging-obscure-floppies.pdf
+    output: index.pdf
 downloads:
   - file: index.md
-    filename: ./imaging-obscure-floppies.md
+    filename: imaging-obscure-floppies.md
     title: Markdown
-  - file: ./imaging-obscure-floppies.pdf
+  - file: index.pdf
+    filename: imaging-obscure-floppies.pdf
     title: PDF
-  - file: ./imaging-obscure-floppies.epub
+  - file: index.epub
+    filename: imaging-obscure-floppies.epub
     title: ePub
 ---
 
