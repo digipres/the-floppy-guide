@@ -21,6 +21,11 @@ exports:
   - format: pdf
     #template: plain_latex_book
     template: lapreprint-typst
+    logo: "cover.png"
+    kind: Community Guide
+    # These two are documented but not supported yet it seems:
+    # theme: "red.darken(20%)"
+    # paper-size: "A4"
     output: ./imaging-obscure-floppies.pdf
 downloads:
   - file: index.md
@@ -31,6 +36,7 @@ downloads:
   - file: ./imaging-obscure-floppies.epub
     title: ePub
 ---
+
 :::{warning} Status: Update In Progress
 This first version of this guide was created for a workshop at iPRES 2024. It is being updated and republished in this new format as part of the [Future Nostalgia](https://www.lib.cam.ac.uk/stories/floppy-disk-funding) project.
 
