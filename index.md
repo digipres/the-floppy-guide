@@ -19,8 +19,8 @@ tags:
 thumbnail: ./media/image7.png
 exports:
   - format: pdf
-    #template: plain_latex_book
-    template: lapreprint-typst
+    #template: plain_latex_book # Needs LaTeX
+    template: lapreprint-typst # Needs Typst
     logo: "cover.png"
     kind: Community Guide
     # These two are documented but not supported yet it seems:
