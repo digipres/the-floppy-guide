@@ -1,9 +1,9 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: guide-to-imaging-obscure-floppies
-  title: A Guide To Imaging Obscure Floppy Disk Formats
-  github: https://github.com/digipres/guide-to-imaging-obscure-floppies
+  id: the-floppy-guide
+  title: Copy That Floppy! 
+  github: https://github.com/digipres/the-floppy-guide
   license:
     content: CC-BY-4.0
   open_access: true
