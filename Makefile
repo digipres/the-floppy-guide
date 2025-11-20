@@ -1,9 +1,3 @@
-# How the source is initially generated
-from-docx: 
-	echo "Regenerating and overwriting index.md from the source DOCX file!"
-	pandoc Copy\ That\ Floppy\ --\ Floppy\ Disk\ Guide.docx -o index.md --wrap=none -t commonmark --extract-media=.
-
-
 # The publication formats we want to generate:
 pubs = index.epub index.pdf
 
@@ -30,3 +24,8 @@ myst: index.md
 # Remove all the outputs:
 clean:
 	rm -fr $(pubs) _build
+
+# How the source is initially generated
+from-docx: 
+	echo "Regenerating and overwriting index.md from the source DOCX file!"
+	pandoc Copy\ That\ Floppy\ --\ Floppy\ Disk\ Guide.docx -o index.md --wrap=none -t commonmark --extract-media=.
