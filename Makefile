@@ -2,7 +2,7 @@
 pubs = index.epub index.pdf
 
 # The default make target, all of the above plus HTML:
-all: $(pubs) myst
+all: from-gdoc $(pubs) myst
 
 # Generate the ePub using Pandoc:
 index.epub: index.md
@@ -25,7 +25,13 @@ myst: index.md
 clean:
 	rm -fr $(pubs) _build
 
-# How the source is initially generated
-from-docx: 
+# How the source is initially generated:
+from-gdoc: 
 	echo "Regenerating and overwriting index.md from the source DOCX file!"
-	pandoc Copy\ That\ Floppy\ --\ Floppy\ Disk\ Guide.docx -o index.md --wrap=none -t commonmark --extract-media=.
+	curl -L -o source.docx "https://docs.google.com/document/u/0/export?format=docx&id=1ZfPaXMOXCphfnDKKRoImzccHtY2M2hBZLI5mP65RNpk"
+	pandoc source.docx -o index_body.md --wrap=none -t commonmark --extract-media=.
+	cat index_head.md index_body.md > index.md
+
+# How the 'development' version is run:
+serve:
+	myst start
