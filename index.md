@@ -45,6 +45,7 @@ You can also make suggestions via [GitHub issues](https://github.com/digipres/th
 :::{aside}
 <img src="./cover.png"/>
 :::
+
 This guide is written for practitioners wanting to image floppy disks with the intention of preserving them for the long-term. This guide will focus on floppies with a Shugart Interface, which are the 8-inch, 5.25-inch, 3.5-inch and 3-inch floppy disks. This guide will only focus on getting material from these disks and will not cover writing disks. Other resources are available for further information on floppy disks, as outlined in Section 5.
 
 The guide will assume some basic knowledge on some terms, which include digital preservation and assume that you are familiar with tools such as write blockers and feel confident configuring different pieces of software, using different operating systems and the command line. Further resources on digital preservation and other basics can be found in Section 5. This guide will also not be a step-by-step demonstration of all the different tools and floppy controllers; this decision was made as the hardware and software around floppy controllers can change quite quickly. but will serve as a basis on how to get started and how to image the floppy disks in the wider sense.
@@ -81,7 +82,7 @@ As a side note, floppies, floppy disk, carriers and disks will be used interchan
 
 The first step in setting up your workflow is to identify your floppy disk. There are a number of resources out there to identify the carriers in your collection, including [<u>Know you Digital Storage Media</u>](https://lib.utsa.edu/knowyourmedia/index.html) by UTSA Libraries Special Collections and [<u>The Museum of Obsolete Media</u>](https://obsoletemedia.org/). As a reminder, this guide will only be covering floppy disks with a Shugart interface, there are the 8-inch, 5.25-inch, 3.5-inch and 3-inch floppy disks. There are more types of floppy disks out there, as helpfully highlighted by [<u>the Obsolete Media museum</u>](https://obsoletemedia.org/data/floppy/), but these are not covered in this guide.
 
-<img src="./media/image5.jpg" style="width:6.26772in;height:2.68056in" />
+<img src="./media/image4.jpg" style="width:6.26772in;height:2.68056in" />
 
 *All floppy disks covered in this guide all use the Shugart Interface, from left to right: 3.5-inch floppy disk, 3-inch (Amstrad) floppy disk, 5.25-inch floppy disk and 8-inch floppy disk.*
 
@@ -101,7 +102,7 @@ The labels of floppy disks are able to highlight a number of things:
 
 - **Operating system or formatting type.** For instance, a disk might be labeled ‘DOS’ to indicate it had been formatted for IBM PC-compatible systems running MS-DOS. Others might carry labels for [<u>Macintosh (HFS)</u>](https://en.wikipedia.org/wiki/Hierarchical_File_System_(Apple)), [<u>CP/M</u>](https://en.wikipedia.org/wiki/CP/M), or other environments.
 
-<img src="./media/image4.jpg" style="width:2.56771in;height:2.12022in" /><img src="./media/image6.jpg" style="width:3.59173in;height:2.16573in" />
+<img src="./media/image5.jpg" style="width:2.56771in;height:2.12022in" /><img src="./media/image6.jpg" style="width:3.59173in;height:2.16573in" />
 
 *Different types of floppy disks. On the left is a group of 3.5-inch floppies. The two on the left being examples of DD disks, the two on the right HD disks. The picture on the left highlights a wide range of 5.25-inch floppy disks. Including DD and HD disks, all DS. The labels (if present) on these floppy disks are accurate, all disks contain data.*
 
@@ -421,8 +422,7 @@ Examples include:
 
 - [<u>Ira Goldklang’s TRS-80 Revived Site</u>](https://www.trs-80.com/wordpress/welcome/)
 
-- <u>[stardot.org.uk](https://stardot.org.uk/forums/index.php)[  
-  ](https://www.retrotechnology.com/)</u>
+- [stardot.org.uk](https://stardot.org.uk/forums/index.php)[retro](https://www.retrotechnology.com/)
 
 ## 5.5 Preservation and Data Recovery Decisions
 

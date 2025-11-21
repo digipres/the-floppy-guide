@@ -27,7 +27,7 @@ clean:
 
 # How the source is initially generated:
 from-gdoc: 
-	echo "Regenerating and overwriting index.md from the source DOCX file!"
+	echo "Regenerating and overwriting index.md from the source Google Doc file!"
 	curl -L -o source.docx "https://docs.google.com/document/u/0/export?format=docx&id=1ZfPaXMOXCphfnDKKRoImzccHtY2M2hBZLI5mP65RNpk"
 	pandoc source.docx -o index_body.md --wrap=none -t commonmark --extract-media=.
 	cat index_head.md index_body.md > index.md

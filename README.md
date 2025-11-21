@@ -1,5 +1,5 @@
-The Floppy Guide (TBC) 
-======================
+Copy That Floppy!
+=================
 
 As part of the [Future Nostalgia project](https://www.lib.cam.ac.uk/future-nostalgia), we are putting together a guide on preserving floppy disks. The guide is currently in the reviewing stage. The draft version of the guide can be accessed [here](https://docs.google.com/document/d/1ZfPaXMOXCphfnDKKRoImzccHtY2M2hBZLI5mP65RNpk/edit?usp=sharing). You will be able to leave any comments or suggestions.
 
@@ -7,49 +7,23 @@ As part of the [Future Nostalgia project](https://www.lib.cam.ac.uk/future-nosta
 Web Publication Build Process
 -----------------------------
 
+The publication process is controlled by the `Makefile`, which contains all the technical details.
 
-Started by downloading the source Google Document as a DOCX file. Then:
+- It downloads the source Google Document as a DOCX (because this brings embedded media with it)
+- It uses `pandoc` to convert that to Markdown + media files.
+- It patches in a YAML frontmatter block (`index_head.md`) to set up the document.
+- It uses `pandoc` to generate an ePub version.
+- It uses [MystMD](https://mystmd.org/guide/installing) to generate web and PDF versions.
 
-```
-pandoc Guide\ -\ Reading\ obscure\ floppy\ disk\ formats.docx -o index.md --wrap=none -t commonmark --extract-media=.
-```
+Notes:
 
-Note didn't use commonmark_x because it added anchors to the headings which MyST does not support.
+- Conversion didn't use commonmark_x because it added anchors to the headings which MyST does not support.
+- PDF generation only works if you remove styling inside hyperlinks (underlines) as this confuses Typst.
+- Some things, like big tables, might not convert well. These are best modified at source (GDoc).
+- The ePub generation process can pick up some metadata from the source document.
+- When developing locally, you can use `make from-gdoc serve` to rebuild and then look at the results.
 
-Then had to tweak:
+Maintenance
+-----------
 
-- Move some information like title and authors into structured frontmatter.
-- Remove styling inside hyperlinks (underlines) as this confuses Typst.
-- To stop the big table of controllers getting lost off the end of the page in the PDF, I had to break it up into a sequence of tables. Might work better as headings and figures.
-
-
-ePub generation:
-
-```
-pandoc index.md -o exports/imaging-floppy-disks.epub --metadata title="A Guide To Imaging Obscure Floppy Disk Formats"
-```
-
-But you don't need the metadata field there if you add it to the frontmatter.
-
-
-
-MystMD setup
-
-https://mystmd.org/guide/installing
-
-npm install -g mystmd
-
-myst start
-
-
-
-Enable Pages
-
-https://github.com/digipres/guide-to-imaging-obscure-floppies/settings/pages
-
-
-Makefile
-
-
-make from-gdoc serve
-
+After the end of the Future Nostalgia project, the Digital Preservation Coalition will endeavour to ensure this publication remains available and facilitate it's ongoing maintenance and development. 
