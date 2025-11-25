@@ -82,7 +82,7 @@ As a side note, floppies, floppy disk, carriers and disks will be used interchan
 
 The first step in setting up your workflow is to identify your floppy disk. There are a number of resources out there to identify the carriers in your collection, including [<u>Know you Digital Storage Media</u>](https://lib.utsa.edu/knowyourmedia/index.html) by UTSA Libraries Special Collections and [<u>The Museum of Obsolete Media</u>](https://obsoletemedia.org/). As a reminder, this guide will only be covering floppy disks with a Shugart interface, there are the 8-inch, 5.25-inch, 3.5-inch and 3-inch floppy disks. There are more types of floppy disks out there, as helpfully highlighted by [<u>the Obsolete Media museum</u>](https://obsoletemedia.org/data/floppy/), but these are not covered in this guide.
 
-<img src="./media/image4.jpg" style="width:6.26772in;height:2.68056in" />
+<img src="./media/image2.jpg" style="width:6.26772in;height:2.68056in" />
 
 *All floppy disks covered in this guide all use the Shugart Interface, from left to right: 3.5-inch floppy disk, 3-inch (Amstrad) floppy disk, 5.25-inch floppy disk and 8-inch floppy disk.*
 
@@ -348,7 +348,7 @@ The Applesauce has a built in viewer of the disk tracks, this is also compatible
 
 There are several common issues to look out for during analysis. A disk that was originally formatted as 40 tracks but imaged on an 80-track drive without double-stepping will typically result in red or missing tracks spaced evenly across the flux map. Similarly, inconsistent or weak magnetic signals may indicate that the disk is dirty, demagnetized, or misaligned. This is often visible as blurred flux transitions or noisy waveforms. In these cases, physical cleaning of the media or re-alignment of the drive may be necessary before reattempting the image.
 
-<img src="./media/image2.png" style="width:6.26772in;height:3.16667in" />
+<img src="./media/image4.png" style="width:6.26772in;height:3.16667in" />
 
 *Flux stream shown in HxC Floppy Emulator. This flux stream is of a mouldy floppy disk and you can see the mould have been dragged across the floppy in a circular motion.*
 
@@ -422,7 +422,9 @@ Examples include:
 
 - [<u>Ira Goldklang’s TRS-80 Revived Site</u>](https://www.trs-80.com/wordpress/welcome/)
 
-- [stardot.org.uk](https://stardot.org.uk/forums/index.php)[retro](https://www.retrotechnology.com/)
+- [<u>Stardot.org.uk</u>](http://stardot.org.uk)
+
+- [<u>Adrian’s Digital Basement</u>](https://www.youtube.com/@adriansdigitalbasement)
 
 ## 5.5 Preservation and Data Recovery Decisions
 
