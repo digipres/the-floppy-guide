@@ -82,7 +82,7 @@ As a side note, floppies, floppy disk, carriers and disks will be used interchan
 
 The first step in setting up your workflow is to identify your floppy disk. There are a number of resources out there to identify the carriers in your collection, including [<u>Know you Digital Storage Media</u>](https://lib.utsa.edu/knowyourmedia/index.html) by UTSA Libraries Special Collections and [<u>The Museum of Obsolete Media</u>](https://obsoletemedia.org/). As a reminder, this guide will only be covering floppy disks with a Shugart interface, there are the 8-inch, 5.25-inch, 3.5-inch and 3-inch floppy disks. There are more types of floppy disks out there, as helpfully highlighted by [<u>the Obsolete Media museum</u>](https://obsoletemedia.org/data/floppy/), but these are not covered in this guide.
 
-<img src="./media/image2.jpg" style="width:6.26772in;height:2.68056in" />
+<img src="./media/image4.jpg" style="width:6.26772in;height:2.68056in" />
 
 *All floppy disks covered in this guide all use the Shugart Interface, from left to right: 3.5-inch floppy disk, 3-inch (Amstrad) floppy disk, 5.25-inch floppy disk and 8-inch floppy disk.*
 
@@ -104,7 +104,7 @@ The labels of floppy disks are able to highlight a number of things:
 
 <img src="./media/image5.jpg" style="width:2.56771in;height:2.12022in" /><img src="./media/image6.jpg" style="width:3.59173in;height:2.16573in" />
 
-*Different types of floppy disks. On the left is a group of 3.5-inch floppies. The two on the left being examples of DD disks, the two on the right HD disks. The picture on the left highlights a wide range of 5.25-inch floppy disks. Including DD and HD disks, all DS. The labels (if present) on these floppy disks are accurate, all disks contain data.*
+*Different types of floppy disks. On the left is a group of 3.5-inch floppies. The two on the left being examples of DD disks, the two on the right HD disks. The picture on the right highlights a wide range of 5.25-inch floppy disks. Including DD and HD disks, all DS. The labels (if present) on these floppy disks are accurate, all disks contain data.*
 
 It should be noted that labels can be misleading. Floppy disks were expensive at the time and therefore disks were re-used. This means that it is possible to find unexpected material on disks and sometimes they are even in other formats or densities than the label would suggest. Keep this in mind when imaging, the label is a great starting point, but can be incorrect. It is also worth checking any disks that appear to have been commercially produced, like software or operating system installation disks, that may be present in your collection, as these could also be re-used for personal data.
 
@@ -348,11 +348,11 @@ The Applesauce has a built in viewer of the disk tracks, this is also compatible
 
 There are several common issues to look out for during analysis. A disk that was originally formatted as 40 tracks but imaged on an 80-track drive without double-stepping will typically result in red or missing tracks spaced evenly across the flux map. Similarly, inconsistent or weak magnetic signals may indicate that the disk is dirty, demagnetized, or misaligned. This is often visible as blurred flux transitions or noisy waveforms. In these cases, physical cleaning of the media or re-alignment of the drive may be necessary before reattempting the image.
 
-<img src="./media/image4.png" style="width:6.26772in;height:3.16667in" />
+<img src="./media/image3.png" style="width:6.26772in;height:3.16667in" />
 
 *Flux stream shown in HxC Floppy Emulator. This flux stream is of a mouldy floppy disk and you can see the mould have been dragged across the floppy in a circular motion.*
 
-<img src="./media/image3.jpg" style="width:6.26772in;height:3.26389in" />
+<img src="./media/image2.jpg" style="width:6.26772in;height:3.26389in" />
 
 *Double Density Floppy Disk on an 80-track (High Density) Floppy Drive. This read may look unsuccessful because of the red bands visible on the image. However, these red bands are places where no data has been found on the 80-track Floppy Drive as only 40-tracks are present on the Double Density floppy disk that was imaged.*
 
