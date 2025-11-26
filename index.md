@@ -34,10 +34,6 @@ downloads:
     title: ePub
 ---
 
-
-<script src="https://hypothes.is/embed.js" async></script>
-
-
 :::{warning} Status: Under Construction
 This guide to imaging floppy disks is being developed as part of the [Future Nostalgia project](https://www.lib.cam.ac.uk/future-nostalgia), led by [Cambridge University Library](https://www.lib.cam.ac.uk/) and supported by the [Digital Preservation Coalition](https://dpconline.org).
 
