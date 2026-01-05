@@ -11,12 +11,13 @@ subject: Imaging Floppy Disks
 tags:
 - Floppy Disks
 - Media Migration
-thumbnail: ./cover.png
+thumbnail: ./Floppy_Disk_Guide.jpg
 exports:
-  - format: pdf
+  - format: typst
     #template: plain_latex_book # Needs LaTeX
-    template: lapreprint-typst # Needs Typst
-    logo: "cover.png"
+    #template: lapreprint-typst # Needs Typst
+    template: https://github.com/myst-templates/plain_typst_book.git # Needs Typst
+    cover: "Floppy_Disk_Guide.jpg"
     kind: Community Guide
     # These two are documented but not supported yet it seems:
     # theme: "red.darken(20%)"
@@ -34,16 +35,14 @@ downloads:
     title: ePub
 ---
 
-:::{warning} Status: Under Construction
+:::{note} Status: Open For Updates
 This guide to imaging floppy disks is being developed as part of the [Future Nostalgia project](https://www.lib.cam.ac.uk/future-nostalgia), led by [Cambridge University Library](https://www.lib.cam.ac.uk/) and supported by the [Digital Preservation Coalition](https://dpconline.org).
 
-The source for this publication is [this Google Doc](https://docs.google.com/document/d/1ZfPaXMOXCphfnDKKRoImzccHtY2M2hBZLI5mP65RNpk/edit) and comments and contributions are welcome!
-
-You can also make suggestions via [GitHub issues](https://github.com/digipres/the-floppy-guide/issues) if you prefer.
+You can add feedback, comments or updates via [GitHub issues](https://github.com/digipres/the-floppy-guide/issues) if you prefer.
 :::
 
 :::{aside}
-<img src="./cover.png"/>
+<img src="./Floppy_Disk_Guide.jpg"/>
 :::
 
 This guide is written for practitioners wanting to create disk images of floppy disks with the intention of preserving them for the long-term. This guide will focus on 8-inch, 5.25-inch, 3.5-inch and 3-inch [<u>floppy disks</u>](https://en.wikipedia.org/wiki/Floppy_disk) and will only focus on getting material from these disks and will not cover writing disks. Other resources are available for further information on floppy disks, as outlined in Section 5.
@@ -374,7 +373,7 @@ Once the flux stream is captured, the next step is to examine its quality and in
 
 The Applesauce has a built in viewer of the disk tracks, this is also compatible with flux streams made on the Greaseweazle and Kryoflux. But another tool to use is the [<u>HxC</u> <u>floppy emulator software</u>](https://hxc2001.com/download/floppy_drive_emulator/), loading a flux stream into this software is done through their GUI, first an image needs to be loaded using the ‘Load’ button, this can then be inspected using the ‘Track Analyzer’ available in the main menu. Both these tools will showcase the flux stream and highlight the number of tracks, sectors and if the read was successful or not. Other tools to consider are [<u>Fluxfox</u>](https://dbalsom.github.io/fluxfox/index.html), which also works in the browser, [<u>DiskImageTool</u>](https://github.com/Digitoxin1/DiskImageTool) and [<u>UnifiedFloppyTool</u>](https://github.com/Axel051171/UnifiedFloppyTool).
 
-<img src="./media/image2.jpg" style="width:6.26772in;height:3.29167in" />
+<img src="./media/image3.jpg" style="width:6.26772in;height:3.29167in" />
 
 *A flux stream opened in the HxC Floppy Emulator software. Green means the capture is done successfully. This view also provides information on the floppy disk itself, showcasing how many sides there are, how many sectors and how many tracks are present on the floppy disk.*
 
@@ -384,7 +383,7 @@ There are several common issues to look out for during analysis. A disk that was
 
 *Flux stream shown in HxC Floppy Emulator. This flux stream is of a mouldy floppy disk and you can see the mould have been dragged across the floppy in a circular motion.*
 
-<img src="./media/image3.jpg" style="width:6.26772in;height:3.26389in" />
+<img src="./media/image2.jpg" style="width:6.26772in;height:3.26389in" />
 
 *Double density floppy disk on an 80-track (high density) floppy drive. This read may look unsuccessful because of the red bands visible on the image. However, these red bands are places where no data has been found on the 80-track floppy drive as only 40-tracks are present on the double density floppy disk that was imaged.*
 

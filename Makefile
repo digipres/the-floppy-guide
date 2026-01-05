@@ -2,7 +2,7 @@
 pubs = index.epub index.pdf
 
 # The default make target, all of the above plus HTML:
-all: from-gdoc $(pubs) myst
+all: $(pubs) myst
 
 # Generate the ePub using Pandoc:
 index.epub: index.md
@@ -10,7 +10,7 @@ index.epub: index.md
         -f commonmark_x \
         --toc \
         --standalone \
-        --metadata=cover-image:"cover.png" \
+        --metadata=cover-image:"Floppy_Disk_Guide.jpg" \
         -o "index.epub"
 
 # Generate the PDF using Typst via MystMD:
