@@ -42,6 +42,6 @@ You can add feedback, comments or updates via [GitHub issues](https://github.com
 :::
 
 :::{aside}
-<img src="./Floppy_Disk_Guide.jpg"/>
+<img src="./Floppy_Disk_Guide_512.jpg"/>
 :::
 

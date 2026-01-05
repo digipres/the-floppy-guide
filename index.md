@@ -11,7 +11,7 @@ subject: Imaging Floppy Disks
 tags:
 - Floppy Disks
 - Media Migration
-thumbnail: ./Floppy_Disk_Guide.jpg
+thumbnail: ./Floppy_Disk_Guide_512.jpg
 exports:
   - format: typst
     #template: plain_latex_book # Needs LaTeX
@@ -42,7 +42,7 @@ You can add feedback, comments or updates via [GitHub issues](https://github.com
 :::
 
 :::{aside}
-<img src="./Floppy_Disk_Guide.jpg"/>
+<img src="./Floppy_Disk_Guide_512.jpg"/>
 :::
 
 This guide is written for practitioners wanting to create disk images of floppy disks with the intention of preserving them for the long-term. This guide will focus on 8-inch, 5.25-inch, 3.5-inch and 3-inch [<u>floppy disks</u>](https://en.wikipedia.org/wiki/Floppy_disk) and will only focus on getting material from these disks and will not cover writing disks. Other resources are available for further information on floppy disks, as outlined in Section 5.
