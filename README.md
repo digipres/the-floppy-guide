@@ -4,7 +4,7 @@ Copy That Floppy!
 As part of the [Future Nostalgia project](https://www.lib.cam.ac.uk/future-nostalgia), we have put together a guide on preserving floppy disks. 
 
 <center>
-<h3><a href="https://digipres.org/goto/floppy-guide">Click here to view the "Copy That Floppy!" guide.</a></h3>
+<h3><a href="https://www.digipres.org/the-floppy-guide/">Click here to view the "Copy That Floppy!" guide.</a></h3>
 </center>
 
 
