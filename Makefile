@@ -10,7 +10,7 @@ index.epub: index.md
         -f commonmark_x \
         --toc \
         --standalone \
-        --metadata=cover-image:"Floppy_Disk_Guide.jpg" \
+        --metadata=cover-image:"./media/Floppy_Disk_Guide.jpg" \
         -o "index.epub"
 
 # Generate the PDF using Typst via MystMD:

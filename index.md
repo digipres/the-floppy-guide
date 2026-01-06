@@ -11,17 +11,20 @@ subject: Imaging Floppy Disks
 tags:
 - Floppy Disks
 - Media Migration
-thumbnail: ./Floppy_Disk_Guide_512.jpg
+thumbnail: ./media/Floppy_Disk_Guide_512.jpg
+numbering:
+  headings: true
 exports:
   - format: typst
-    #template: plain_latex_book # Needs LaTeX
-    #template: lapreprint-typst # Needs Typst
-    template: https://github.com/myst-templates/plain_typst_book.git # Needs Typst
-    cover: "Floppy_Disk_Guide.jpg"
+    # Needs LaTeX
+    #template: plain_latex_book
+    # Needs Typst
+    #template: lapreprint-typst
+    template: https://github.com/myst-templates/plain_typst_book.git
+    cover: "./media/Floppy_Disk_Guide.jpg"
     kind: Community Guide
-    # These two are documented but not supported yet it seems:
-    # theme: "red.darken(20%)"
-    # paper-size: "A4"
+    colortheme: "red.darken(50%)"
+    show_pagenumber: true
     output: index.pdf
 downloads:
   - file: index.md
@@ -42,7 +45,7 @@ You can add feedback, comments or updates via [GitHub issues](https://github.com
 :::
 
 :::{aside}
-<img src="./Floppy_Disk_Guide_512.jpg"/>
+<img src="./media/Floppy_Disk_Guide_512.jpg"/>
 :::
 
 This guide is written for practitioners wanting to create disk images of floppy disks with the intention of preserving them for the long-term. This guide will focus on 8-inch, 5.25-inch, 3.5-inch and 3-inch [<u>floppy disks</u>](https://en.wikipedia.org/wiki/Floppy_disk) and will only focus on getting material from these disks and will not cover writing disks. Other resources are available for further information on floppy disks, as outlined in Section 5.
@@ -81,9 +84,14 @@ As a side note, floppies, floppy disk, carriers and disks will be used interchan
 
 The first step in setting up your workflow is to identify your floppy disk. There are a number of resources out there to identify the carriers in your collection, including [<u>Know Your Digital Storage Media</u>](https://lib.utsa.edu/knowyourmedia/index.html) by UTSA Libraries Special Collections and [<u>The Museum of Obsolete Media</u>](https://obsoletemedia.org/). As a reminder, this guide will only be covering 8-inch, 5.25-inch, 3.5-inch and 3-inch floppy disks. There are more types of floppy disks out there, as helpfully highlighted by [<u>the Obsolete Media museum</u>](https://obsoletemedia.org/data/floppy/), but these are not covered in this guide.
 
-<img src="./media/image4.jpg" style="width:6.26772in;height:2.68056in" />
+:::{figure}
+:label: floppy-types
 
-*All floppy disks covered in this guide from left to right: 3.5-inch floppy disk, 3-inch (Amstrad) floppy disk, 5.25-inch floppy disk and 8-inch floppy disk.*
+<img src="./media/image4.jpg"/>
+
+All floppy disks covered in this guide from left to right: 3.5-inch floppy disk, 3-inch (Amstrad) floppy disk, 5.25-inch floppy disk and 8-inch floppy disk.
+
+:::
 
 If you are certain you have one of these types of disks in your collection, the next step would be to find out as much as possible about the floppy disk. This is important, as it can help determine the type of hardware that is needed to ensure the best image is made of the disk. The label on the floppy disk can be very helpful in determining its type. Also, if possible, try to see if there is more information to gather from the depositor or any other source of where this material has come from. It is also worthwhile to consider photographing the carrier at this point, preserving a photograph of the physical floppy disk alongside the disk image can be very helpful at later stages to provide context and a better idea of where the disk image came from.
 
@@ -101,9 +109,14 @@ The labels of floppy disks are able to highlight a number of things:
 
 - **Operating system or formatting type.** For instance, a disk might be labeled ‘DOS’ to indicate it had been formatted for IBM PC-compatible systems running MS-DOS. Others might carry labels for [<u>Macintosh (HFS)</u>](https://en.wikipedia.org/wiki/Hierarchical_File_System_(Apple)), [<u>CP/M</u>](https://en.wikipedia.org/wiki/CP/M), or other environments.
 
-<img src="./media/image5.jpg" style="width:2.56771in;height:2.12022in" /><img src="./media/image6.jpg" style="width:3.59173in;height:2.16573in" />
+:::{figure}
+:label: floppy-details
 
-*Different types of floppy disks. On the left is a group of 3.5-inch floppies. The two on the left are examples of DD disks (having one notch and no ‘HD’ logo on the top right), and the two on the right are of HD disks (with two notches at the bottom and the ‘HD’ logo). The notch on the left hand-side of the HD 3.5-inch disks is sometimes covered up because of the write tab being engaged, more on this in Section 4. The picture on the right highlights a wide range of 5.25-inch floppy disks. Including DD and HD disks, all DS. Where manufacturer labelling is present, the information it provides about the disk’s density, format, etc., is accurate in these examples.*
+![3.5 inch & 5.25 inch floppy disks](./media/image5-6.jpg)
+
+Different types of floppy disks. On the left is a group of 3.5-inch floppies. The two on the left are examples of DD disks (having one notch and no ‘HD’ logo on the top right), and the two on the right are of HD disks (with two notches at the bottom and the ‘HD’ logo). The notch on the left hand-side of the HD 3.5-inch disks is sometimes covered up because of the write tab being engaged, more on this in Section 4. The picture on the right highlights a wide range of 5.25-inch floppy disks. Including DD and HD disks, all DS. Where manufacturer labelling is present, the information it provides about the disk’s density, format, etc., is accurate in these examples.
+
+:::
 
 It should be noted that labels can be misleading. Floppy disks were expensive at the time and therefore disks were re-used. This means that it is possible to find unexpected material on disks and sometimes they are even in other formats or densities than the label would suggest. Keep this in mind when imaging. The label is a great starting point, but can be incorrect. It is also worth checking any disks that appear to have been commercially produced, like software or operating system installation disks, that may be present in your collection, as these could also be re-used for personal data.
 
@@ -117,7 +130,7 @@ Once you have a better idea of what you have in the collection, the hardware can
 
 As you now have a better understanding of what floppy disks you have in your collection, it is time to acquire hardware to read the content on the disks. This is done in a number of steps. The most important thing is to first acquire a floppy disk drive, secondly a floppy controller, and thirdly you will have to ensure you have the right cables and power connections to use the floppy disk drive and floppy controller.
 
-## 2.1 What floppy disk drive do I need?
+## What floppy disk drive do I need?
 
 The type of floppy disk drive is determined by the type of floppy disk that you have. This section is organised by size of the floppy disk, but there is also a specific section on Apple formatted disks (that is organised by size), as these are slightly different and, for some, specific hardware is needed. If you think you have Apple formatted disks in your collection, please consult this section before looking at the wider overview of the floppy disk drives.
 
@@ -157,7 +170,7 @@ These deserve special attention due to Apple’s unique encoding methods and har
 
 - **Macintosh (3.5‑inch)**: Early 400 KB SSDD and 800 KB DSDD Mac disks used variable-speed drives to pack more data per track—something only Apple’s own drives (and Applesauce) can reproduce. These disks can sometimes be successfully imaged by floppy controllers other than Applesauce. However, for preservation, the recommendation would be to use an Apple 800 KB drive or Superdrive with Applesauce. In contrast, later 1.44 MB Macintosh disks were formatted with MFM and are fully compatible with standard 3.5‑inch PC drives. However, be mindful of copy-protected media, which often requires flux-level imaging and analysis for successful preservation.
 
-## 2.2 What Floppy Controller do I need?
+## What Floppy Controller do I need?
 
 A floppy controller is a critical piece of hardware that interfaces between the floppy disk drive and a computer or imaging system. Its role is to manage communication with the drive, including controlling the read/write head, handling drive timing, interpreting magnetic flux transitions from the disk surface, and converting those signals into digital data that software can process.
 
@@ -197,7 +210,7 @@ These controllers are able to work with a wide range of floppy disk formats and 
 
 However, one must know what type of disk is being imaged to get a proper image, other controllers automatically detect this. The software can also be difficult to install on certain systems, such as Ubuntu, due to dependencies not being clear in the instructions and unclear error messages. When buying this controller it is possible to buy cables alongside it, which makes it easier to ensure you have the right cables for the right drive.
 
-## 2.3 Cables, power connectors and other peripherals
+## Cables, power connectors and other peripherals
 
 Alongside the drive and the floppy controller, a number of peripherals are needed to connect the drives. Each type of drive has distinct cables and power requirements. Understanding and correctly matching these components is critical not just for functionality, but also to avoid damaging irreplaceable hardware.
 
@@ -219,7 +232,7 @@ If you want to reuse connectors from other machines, verify whether your control
 
 For testing, which will be discussed in the next section. Once your cabling and power setup is confirmed, it’s strongly recommended to acquire and test the drive using a known-good floppy disk. Commercial software disks are a particularly useful choice. These were typically written and verified on factory-aligned drives and are more likely to have consistent formatting. Additionally, they are widely available in retro communities and often still functional. Having a few such disks on hand can make troubleshooting easier when you encounter problems with drive alignment, data corruption, or inconsistent reads.
 
-## 2.4 Summary of workflow
+## Summary of workflow
 
 The following workflows outline the equipment configurations discussed above. While these setups do not cover every floppy disk format and are not the only possible methods, they provide a reliable starting point for establishing a working process.
 
@@ -235,7 +248,7 @@ The following workflows outline the equipment configurations discussed above. Wh
 
 **Apple Superdrive 3.5 drive** (best practice, but most work on normal 3.5-inch drive**)** → DB-19 cable for both power supply and data (this is permanently attached to the drive) → Applesauce - If not possible to acquire Superdrive drive, you could try a regular 3.5-inch drive.
 
-## 2.5 Where do I source this hardware?
+## Where do I source this hardware?
 
 Once you understand what equipment you need, the next step is to acquire the hardware. Because most of this equipment is no longer manufactured, sourcing it can be challenging, this section gives a number of tips on where to get started and what to look for.
 
@@ -253,9 +266,8 @@ Lastly, consider buying full vintage systems instead of isolated parts. Older PC
 
 As a general rule, it’s wise to build redundancy into your setup. If possible, purchase more than one of each type of needed drive. Having a spare ensures that a hardware failure won't halt your process, and also allows for cross-testing in case of disk read issues. It’s also good practice to keep a record of where your hardware was sourced, what condition it arrived in, and any modifications you made. This documentation can be invaluable if problems arise later or if you pass the equipment on to someone else.
 
-#  
 
-#  3. Testing, cleaning and maintaining carriers and hardware
+#  Testing, cleaning and maintaining carriers and hardware
 
 Floppy disk hardware is old and obsolete. When using them for preservation purposes it is therefore important to maintain and clean these components to ensure they function reliably and for as long as possible. This section of the guide outlines how to clean the drive and test your hardware. There will also be some detail on cleaning dirty or mouldy disks and also how to maintain a drive. Not every method described will work for every type of drive or disk, but in most cases, it’s worth trying before giving up.
 
@@ -267,7 +279,7 @@ Conservation resources to consult:
 
 - American Institute for Conservation (AIC) AIC Wiki “[<u>Category:Mold/Fungi</u>](https://www.conservation-wiki.com/wiki/Category:Mold/Fungi)”
 
-## 3.1 Cleaning Floppy Disk Drives
+## Cleaning Floppy Disk Drives
 
 Even if a drive appears functional, regular cleaning is essential to prevent read/write errors and protect your disks from contamination. As the heads come into contact with the surface of disks while reading, dirty disks will transmit residual contaminants (mould, dirt, oxide particulates) to the heads, causing read errors and disk damage (sometimes referred to as the “[<u>bulldozer effect</u>](https://forum.vcfed.org/index.php?threads/delicate-8%E2%80%9D-and-5%C2%BC%E2%80%9D-double-sided-floppy-disks-%E2%80%93-how-to-avoid-a-%E2%80%98bulldozer%E2%80%99-effect.1239735/#post-1272149)”). Furthermore, accretions left on the heads will cause damage to subsequent disks inserted into the reader, spreading the contamination and disk destruction risks far beyond a single disk read. If you have acquired a new drive, even if you have heard from the source that it is functional, it is essential to give it a clean before use, especially the heads.
 
@@ -279,7 +291,7 @@ After cleaning the exterior, the internal cleaning of the read/write heads is cr
 
 - **Cleaning the heads directly.** This method will need some disassembling, but can be especially helpful for very dirty drives. To clean the heads directly, open the drive carefully (if possible, refer to its service manual for instructions). Locate the head assembly and use high-purity (70-99%) isopropyl alcohol. A high level is needed to prevent any residue from being left behind. Extreme care must be taken: the heads are delicate and can be easily scratched or misaligned. Don’t use anything thicker than a credit card (cotton buds are too large and risk damage), and avoid upward pressure on the top head if a double sided drive. This can be facilitated by closing the mechanism once the card is in place and applying very gentle downward pressure on the top head with a finger tip. Allow all cleaned components to dry completely before reconnecting power.
 
-## 3.2 Testing Floppy Disk Drives Before Use
+## Testing Floppy Disk Drives Before Use
 
 After cleaning the drive it is time to test your hardware setup. This is strongly advised before imaging any collection material. Ensure that you have a test disk, this could have been acquired when getting the drive, or ask around, as these are things that people will have lying around. When acquiring a test disk, try and find one with commercial software written on it, as these will have been written with highly-calibrated drives.
 
@@ -291,7 +303,7 @@ When powering your drive up for the first time, ensure all the cabling is connec
 
 Additional troubleshooting advice can be found in the floppy controller guides. Also, in the next Section on imaging floppy disks there are a number of examples that may be linked to hardware problems, so it may be worth checking these to ensure that this is not a problem with your drive. To test a drive, running a basic flux read is the easiest way to go and then analysing this read. This again is discussed in more detail in the next section.
 
-## 3.3 Inspecting Floppy Disks
+## Inspecting Floppy Disks
 
 As floppy disks are now a number of decades old, not all of them will be in the ideal condition. Over time they become increasingly vulnerable to contamination, physical damage, and data loss. Before inserting any disk into a drive it is important to inspect and, if necessary, clean the disk itself to prevent potential irreversible damage to both the carrier and the drive. Sometimes it can be difficult to spot any damage, dust or mould. However, there is [<u>a squealing sound</u>](https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m4oki6s5i22h) that the drive will make when imaging that is a clear indication of something being not quite right. If you hear this sound, in most cases it will be the disk that needs cleaning.
 
@@ -299,7 +311,7 @@ To inspect a floppy disk, make sure you are in a well-lit room and hold the flop
 
 When inspecting a disk and you are unsure about its condition, it is useful to test-read only a few tracks near the centre of the disk. This allows you to verify whether the disk spins and reads without excessive resistance or debris. Again, be aware of any [<u>squealing sound</u>](https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m4oki6s5i22h). Reading only the middle tracks ensures that critical data such as the directory listings and system specifications are not normally lost, as these typically sit on the outer tracks (track 0 & 1) of a floppy disk.
 
-## 3.4 Cleaning Floppy Disks
+## Cleaning Floppy Disks
 
 Within the community there are quite a number of different methods that people will recommend, there does not seem to be one clear solution for all. [<u>This resource</u>](https://www.retrotechnology.com/herbs_stuff/clean_disks.html) gives a good overview, and [<u>this video</u>](https://www.youtube.com/watch?v=KIELJe1ZnfI) showcases a number of different cleaning methods and their effectiveness. For cleaning in general, there are also some tools that may make it a little bit easier, including this [<u>3-D printed cleaner case</u>](https://www.thingiverse.com/thing:5384863#google_vignette).
 
@@ -313,7 +325,7 @@ Do be careful when cleaning disks. The disk may already be disintegrating and cl
 
 Other sources to also have a look at in regards to cleaning are David Tenenholtz’s [<u>lightning talk</u>](https://osf.io/zrx2e/), [<u>this lighting talk at iPRES 2024</u>](https://www.digipres.org/publications/ipres/ipres-2024/papers/the-floppy-disks-in-the-garage-physical-preservation-conditions/) and [<u>this blog</u>](https://nlwmablab.wordpress.com/2014/07/30/104/) by Emma Towner, a series of blogs on the Michigan Library Blogs ([<u>part 1</u>](https://blogs.lib.umich.edu/bits-and-pieces/mold-weird-part-1) and [<u>part 2</u>](https://blogs.lib.umich.edu/bits-and-pieces/mold-weird-part-2)) and [<u>this technical bulletin</u>](https://www.publications.gc.ca/site/eng/9.810489/publication.html) from the Canadian Conservation Institute.
 
-## 3.5 Maintaining Floppy Disk Drives
+## Maintaining Floppy Disk Drives
 
 Cleaning a floppy disk drive is an important first step, but this may not solve all the issues. Many drives will suffer from mechanical wear, degraded materials, or loss of factory calibration. As floppy disk technology has become obsolete, preventative maintenance and careful handling have become essential to their continued use. However, it is also important to recognise when further repairs may not be worthwhile. Sometimes, despite best efforts, a drive may be too degraded or unreliable to justify the time and risk involved in restoration. In such cases, sourcing a replacement can be the more sensible and time-efficient solution.
 
@@ -327,7 +339,7 @@ In some cases, a functional drive may still be unable to read disks due to head 
 
 For those with access to additional tools, [<u>an oscilloscope</u>](https://scarybeastsecurity.blogspot.com/2021/05/recovering-lost-treasure-filled-floppy.html) can be used to analyse signal timing and waveform characteristics in greater detail. This can be helpful when diagnosing intermittent read failures, low signal amplitude, or controller-related issues. While not essential for basic maintenance, an oscilloscope may prove useful for more advanced testing and calibration, particularly when working with unusual or proprietary formats.
 
-## 3.6 Storing and Handling Floppy Disks and Floppy Disk Drives
+## Storing and Handling Floppy Disks and Floppy Disk Drives
 
 Finally, attention should be given to the storage and handling of drives and magnetic media, as these factors can have an impact on long-term reliability and data integrity. Magnetic storage technologies are particularly vulnerable to environmental conditions such as dust, airborne contaminants, humidity, temperature fluctuations, and physical shock. Even when not in use, improper storage can accelerate mechanical wear, corrosion, or magnetic signal degradation. For this reason, drives should always be kept in a clean, dust-free environment between uses, ideally in a space with stable temperature and humidity.
 
@@ -337,7 +349,7 @@ When a drive is stored for an extended period or transported, [<u>additional pre
 
 It is also important to consider the magnetic media itself, not just the drives. Magnetic disks, tapes, and drives rely on delicate magnetizable coatings applied to a substrate, which can deteriorate over time if exposed to dust, pollutants, high humidity, temperature fluctuations, or strong magnetic fields. These environmental factors can accelerate physical wear, corrosion, and degradation of the recorded signals, leading to data loss if [<u>not properly controlled</u>](https://www.naa.gov.au/information-management/storing-and-preserving-information/preserving-information/preserving-magnetic-media). Protective storage, such as anti-static sleeves or enclosed containers, helps reduce exposure to dust and mechanical damage, while handling media by the edges and avoiding contact with the magnetic surfaces minimises the risk of contamination or scratching.
 
-# 4. Imaging floppy disks
+# Imaging floppy disks
 
 Once you have acquired your equipment and have ensured it is all working, the actual imaging can take place. This guide will be specifically focusing on creating a flux-level image, in particular with the floppy controllers Greaseweazle and Applesauce.
 
@@ -347,7 +359,7 @@ Before imaging, write protection should be considered to prevent accidental modi
 
 - **Media-level write protection:** Write protection can be enabled on the disk itself, though the method varies by disk type. For 8-inch and 5.25-inch disks, read/write-protect stickers were commonly used; however, [<u>original stickers may have degraded adhesive</u>](https://forum.vcfed.org/index.php?threads/5-1-4-disk-labels.50796/) and can detach inside the drive. For 3.5-inch disks there is [<u>a toggle</u>](https://www.micropolis.com/support/kb/3.5-inch-floppy-disk) to enable/disable writing.
 
-## 4.1 Flux Stream Imaging
+## Flux Stream Imaging
 
 The first stage of the imaging process is to capture a flux stream. A flux stream is a raw representation of the magnetic transitions on a floppy disk, recorded without attempting to interpret the data into sectors, files, or a filesystem. It reflects the true timing and spacing of these magnetic changes as the disk spins beneath the drive’s read head. This level of imaging is particularly important for disks with unusual encodings, protection schemes, or structural degradation.
 
@@ -367,25 +379,38 @@ The imaging process should aim to preserve every magnetic transition present on 
 
 If simultaneous capture is not supported by the floppy controller, it is still preferable to record a complete flux stream. Capturing only raw flux ensures that all magnetic transitions are preserved, including those associated with copy-protection schemes or other unusual disk behaviours. However, there is a drawback to only performing a flux read, without format checking, the quality of the capture cannot be immediately verified, and random errors may also be recorded.
 
-## 4.2 Analysing the Flux Stream and Troubleshooting
+## Analysing the Flux Stream and Troubleshooting
 
 Once the flux stream is captured, the next step is to examine its quality and interpret what was recorded. Having a basic understanding of the structure of a floppy disk can be useful for this step and [<u>this video</u>](https://www.youtube.com/watch?v=tJCMzdzh4Tw) is a good place to start. This process helps determine whether the image is usable, whether the disk is degraded, and whether specific structural or mechanical problems occurred during reading.
 
 The Applesauce has a built in viewer of the disk tracks, this is also compatible with flux streams made on the Greaseweazle and Kryoflux. But another tool to use is the [<u>HxC</u> <u>floppy emulator software</u>](https://hxc2001.com/download/floppy_drive_emulator/), loading a flux stream into this software is done through their GUI, first an image needs to be loaded using the ‘Load’ button, this can then be inspected using the ‘Track Analyzer’ available in the main menu. Both these tools will showcase the flux stream and highlight the number of tracks, sectors and if the read was successful or not. Other tools to consider are [<u>Fluxfox</u>](https://dbalsom.github.io/fluxfox/index.html), which also works in the browser, [<u>DiskImageTool</u>](https://github.com/Digitoxin1/DiskImageTool) and [<u>UnifiedFloppyTool</u>](https://github.com/Axel051171/UnifiedFloppyTool).
 
-<img src="./media/image3.jpg" style="width:6.26772in;height:3.29167in" />
 
-*A flux stream opened in the HxC Floppy Emulator software. Green means the capture is done successfully. This view also provides information on the floppy disk itself, showcasing how many sides there are, how many sectors and how many tracks are present on the floppy disk.*
+:::{figure}
+:label: flux-1
+
+<img src="./media/image3.jpg" />
+
+A flux stream opened in the HxC Floppy Emulator software. Green means the capture is done successfully. This view also provides information on the floppy disk itself, showcasing how many sides there are, how many sectors and how many tracks are present on the floppy disk.
+:::
 
 There are several common issues to look out for during analysis. A disk that was originally formatted as 40 tracks but imaged on an 80 track drive without double-stepping will typically result in red or missing tracks spaced evenly across the flux map. Similarly, inconsistent or weak magnetic signals may indicate that the disk is dirty, demagnetized, or misaligned. This is often visible as blurred flux transitions or noisy waveforms. In these cases, physical cleaning of the media or re-alignment of the drive may be necessary before reattempting the image.
 
-<img src="./media/image1.png" style="width:6.26772in;height:3.16667in" />
+:::{figure}
+:label: flux-2
 
-*Flux stream shown in HxC Floppy Emulator. This flux stream is of a mouldy floppy disk and you can see the mould have been dragged across the floppy in a circular motion.*
+<img src="./media/image1.png" />
 
-<img src="./media/image2.jpg" style="width:6.26772in;height:3.26389in" />
+Flux stream shown in HxC Floppy Emulator. This flux stream is of a mouldy floppy disk and you can see the mould have been dragged across the floppy in a circular motion.
+:::
 
-*Double density floppy disk on an 80-track (high density) floppy drive. This read may look unsuccessful because of the red bands visible on the image. However, these red bands are places where no data has been found on the 80-track floppy drive as only 40-tracks are present on the double density floppy disk that was imaged.*
+:::{figure}
+:label: flux-3
+
+<img src="./media/image2.jpg" />
+
+Double density floppy disk on an 80-track (high density) floppy drive. This read may look unsuccessful because of the red bands visible on the image. However, these red bands are places where no data has been found on the 80-track floppy drive as only 40-tracks are present on the double density floppy disk that was imaged.
+:::
 
 Not all red or unreadable sectors necessarily indicate failure. Many copy-protected disks include intentionally malformed sectors that cannot be read by standard logic. These sectors may still be accurately represented in the flux stream, and their presence can be a sign that the imaging was, in fact, successful. Verifying this requires knowledge of the original software's behaviour or consulting community resources familiar with similar disks.
 
@@ -397,7 +422,7 @@ Another outcome of the costs of disks was the emergence of ‘upformatting’ ut
 
 When imaging 8-inch disks another thing to look out for is that [<u>the encoding may differ</u>](https://retrocmp.de/fdd/8inch/read1st.htm) across the disk. It was not uncommon to write the boot track on an 8-inch disk in FM, single density, while the remainder were MFM. It was much easier to read a single density track during the boot process, which would then read in more sophisticated code from the boot track. TRSDOS, CP/M, and XENIX diskettes from Tandy/Radio Shack are examples of this, but other systems often used this technique.
 
-## 4.3 Creating a Disk Image and Accessing Files
+## Creating a Disk Image and Accessing Files
 
 Once the flux stream has been captured and verified as complete or sufficient, the next step is to convert this raw data into a structured disk image. The creation of the disk image may have already been completed during the imaging process, as part of the settings on your floppy controller (see end of previous section). How far an institution goes in emulating floppy disks and extracting files will depend on the content, policies of the institution and the technical difficulties surrounding some of the more unique floppy disks. A disk image is a file that emulates the data and layout of the original floppy disk, often organised into sectors and tracks, and readable by emulators or file extraction tools. To be able to do this correctly, it is useful to be able to consult the label on the floppy disk, or the number of tracks and sectors on the flux stream. This information can then be used to determine to type using [<u>this list</u>](https://en.wikipedia.org/wiki/List_of_floppy_disk_formats). However, not all formats will be on this list. [<u>This video</u>](https://www.youtube.com/watch?v=UxsRpMdmlGo) and [<u>corresponding Wiki</u>](https://wiki.techtangents.net/wiki/Floppy_Disk_Imaging) can be very helpful in this case.
 
@@ -411,7 +436,7 @@ In some cases, additional processing of a diskette may be needed. The HxC Floppy
 
 It is worth noting that disk images made from flux streams can be revisited and reinterpreted as better decoders become available in the future. Preserving the flux image alongside the sector image is always recommended for this reason.
 
-# 5. Further steps and where to get help
+# Further steps and where to get help
 
 This guide has highlighted the basic setup to get a floppy disk workstation up and running, however there will always be more to explore on this topic. This section will highlight some places to look for further information or where to get help.
 
@@ -419,45 +444,38 @@ To start off, some good resources on digital preservation and other basics inclu
 
 This section is organised into different categories of resources. An additional resource to consider is the use of Generative AI tools. These tools can often direct users to many of the materials listed below and may help save time on strolling through blog posts and forums. However, they should be approached with caution, as they are prone to producing inaccurate information or referencing non-existent sources. Accordingly, Generative AI tools are best regarded as an initial point of reference rather than a definitive authority.
 
-## 5.1 Local Computer Enthusiast Groups and Museums
+## Local Computer Enthusiast Groups and Museums
 
 Local computer enthusiast groups in your area could be a good place to ask for information or help. These groups often have members who’ve worked extensively with floppy disks and retro hardware, and they’re usually happy to share their knowledge or even help you troubleshoot specific problems. Do keep in mind that the goals of these groups will be different from the preservation community, as we are interested in imaging disks and not necessarily in writing disks or getting old hardware up and running. Communicating this from the start can help make these conservation more fruitful for both parties involved.
 
 Similarly, local or national computer museums can be a great resource. Museums specialising in computing history often have volunteers and experts familiar with floppy disks and may hold workshops or events where you can get hands-on help. Getting involved with these groups not only gives you access to expertise but can also connect you with others who share your interest.
 
-## 5.2 Online Forums and Communities
+## Online Forums and Communities
 
 Each floppy disk controller or system often has an active online user group or forum. These communities are invaluable when you’re dealing with obscure or tricky floppy disk formats. You can ask questions, share images of your disks or drives, and get advice from experienced users. Each of the [<u>Greaseweazle</u>](https://www.facebook.com/groups/greaseweazle/), [<u>Applesauce</u>](https://applesaucefdc.com/contact/) and [<u>Kryoflux</u>](https://forum.kryoflux.com/) have an active forum where these types of questions can be asked and there is always a willing group of people happy to help. For some very specific or rare floppy types, there are dedicated niche groups focused just on those formats or machines, such as the LisaList for [<u>Apple Lisa</u>](https://lisalist2.com/index.php). There is also a user forum for [<u>EAASI</u>](https://forum.eaasi.cloud/). It is always advised to use the search functions in these groups and forums to see if your question has been asked before, before asking your question.
 
 More general forums that may be of help are places such as the [<u>Vintage Computer Federation Forums</u>](https://forum.vcfed.org/index.php) or certain subreddits, such as [<u>r/vintagecomputing</u>](https://www.reddit.com/r/vintagecomputing/) or [<u>r/retrocomputing</u>](https://www.reddit.com/r/retrocomputing/).
 
-## 5.3 Digital Repositories and Documentation
+## Digital Repositories and Documentation
 
 It is well worth checking online repositories and legal deposit libraries for documentation and other information that can be of help. [<u>The</u> <u>Internet Archive</u>](https://archive.org/), [<u>Amiga Magazine Rack</u>](https://amr.abime.net/) and [<u>Bitsavers</u>](https://bitsavers.org/) are great places to start. Both host a wealth of manuals, software, magazines, and technical documents related to floppy disks and retro computing. These can help you identify disk formats, understand how to read or write to them, and even find tools you might need. Old magazines and manuals might seem outdated, but they often contain detailed format specs and troubleshooting advice that can be a lifesaver. It is also worth checking local, regional or national memory institutions, it is worth checking their catalogues, there could be older magazines in the collection. This can especially be useful for localised computer systems and details on providing context of the time.
 
-## 5.4 Blogs and YouTube channels
+## Blogs and YouTube channels
 
 There is a wide range of blogs and YouTube channels that can provide valuable insights and inspiration. These sources often reflect the creators’ personal interests and may focus more on entertainment than formal research, but they can still be good resources to explore.
 
 Examples include:
 
 - [<u>retrocmp.de</u>](https://retrocmp.de/index.htm)
-
 - [<u>retrotechnology.com</u>](https://www.retrotechnology.com/)
-
 - [<u>Tech Tangents</u>](https://wiki.techtangents.net/wiki/Main_Page)
-
 - [<u>Ira Goldklang’s TRS-80 Revived Site</u>](https://www.trs-80.com/wordpress/welcome/)
-
 - [<u>Stardot.org.uk</u>](http://stardot.org.uk)
-
 - [<u>Adrian’s Digital Basement</u>](https://www.youtube.com/@adriansdigitalbasement)
-
 - [<u>The Oldskool PC</u>](http://www.oldskool.org/), also home of the [<u>Disk2FDI Project</u>](http://www.oldskool.org/disk2fdi)
-
 - [<u>Disktools</u>](https://github.com/ogdenpm/disktools), with description to be found [<u>here</u>](https://mark-ogden.uk/disktools.html).
 
-## 5.5 Preservation and Data Recovery Decisions
+## Preservation and Data Recovery Decisions
 
 Some resources, while not specific to floppy disks, are useful for making decisions about preservation and data recovery. For example, groups such as DANNG offer [<u>guidance</u>](https://dannng.github.io/disk-imaging-decision-factors.html) on whether to create a full disk image or to transfer only logical files. The choice depends on your goals.
 
