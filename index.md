@@ -38,8 +38,8 @@ downloads:
     title: ePub
 ---
 
-:::{note} Status: Open For Updates
-This guide to imaging floppy disks is being developed as part of the [Future Nostalgia project](https://www.lib.cam.ac.uk/future-nostalgia), led by [Cambridge University Library](https://www.lib.cam.ac.uk/) and supported by the [Digital Preservation Coalition](https://dpconline.org).
+:::{note} Status: Good to Go, Open For Updates
+This guide to imaging floppy disks was initially developed as part of the [Future Nostalgia project](https://www.lib.cam.ac.uk/future-nostalgia), led by [Cambridge University Library](https://www.lib.cam.ac.uk/) and supported by the [Digital Preservation Coalition](https://dpconline.org).
 
 You can add feedback, comments or updates via [GitHub issues](https://github.com/digipres/the-floppy-guide/issues) or [by editing this page directly](https://github.com/digipres/the-floppy-guide/edit/main/index.md) if you prefer.
 :::
