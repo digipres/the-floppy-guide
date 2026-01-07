@@ -5,7 +5,7 @@ project:
   title: Copy That Floppy! 
   github: https://github.com/digipres/the-floppy-guide
   license:
-    content: CC-BY-4.0
+    content: CC-BY-SA-4.0
   open_access: true
   subject: ""
   # description:
@@ -23,9 +23,9 @@ site:
   template: book-theme
   options:
     logo_text: "Home"
-    favicon: ./favicon.ico
-    logo: ./logo-light.svg
-    logo_dark: ./logo-dark.svg
+    #favicon: ./favicon.ico
+    #logo: ./logo-light.svg
+    #logo_dark: ./logo-dark.svg
     folders: true # Do not flatten URLs
   actions:
    - title: Part of digipres.org
