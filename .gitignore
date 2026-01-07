@@ -134,4 +134,5 @@ dist
 _build
 *.epub
 *.pdf
+*~
 

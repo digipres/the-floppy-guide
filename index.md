@@ -127,6 +127,8 @@ Another floppy disk variant to watch out for in old collections are the [<u>‘F
 
 Once you have a better idea of what you have in the collection, the hardware can be sourced for the imaging.
 
+![3.5 inch floppy disk](./media/breaks/35-flop.png)
+
 # Acquiring Hardware
 
 As you now have a better understanding of what floppy disks you have in your collection, it is time to acquire hardware to read the content on the disks. This is done in a number of steps. The most important thing is to first acquire a floppy disk drive, secondly a floppy controller, and thirdly you will have to ensure you have the right cables and power connections to use the floppy disk drive and floppy controller.
@@ -267,6 +269,7 @@ Lastly, consider buying full vintage systems instead of isolated parts. Older PC
 
 As a general rule, it’s wise to build redundancy into your setup. If possible, purchase more than one of each type of needed drive. Having a spare ensures that a hardware failure won't halt your process, and also allows for cross-testing in case of disk read issues. It’s also good practice to keep a record of where your hardware was sourced, what condition it arrived in, and any modifications you made. This documentation can be invaluable if problems arise later or if you pass the equipment on to someone else.
 
+![Greaseweasle](./media/breaks/gw.png)
 
 #  Testing, cleaning and maintaining carriers and hardware
 
@@ -349,6 +352,9 @@ To reduce the risk of accidental damage, some users choose to house their drives
 When a drive is stored for an extended period or transported, [<u>additional precautions are advisable</u>](https://www.softwarepreservationnetwork.org/wp-content/uploads/2020/06/UA_Guidelines-for-Storing-and-Handling-Removable-Media.pdf). Inserting a blank floppy disk into the drive slot helps protect the read/write heads by preventing accidental contact. During transport, drives should be secured to prevent movement and cushioned against shock, as mechanical components can be misaligned or damaged by sudden impacts. Anti-static packaging and padded containers are strongly recommended, particularly when shipping or storing equipment alongside other electronics.
 
 It is also important to consider the magnetic media itself, not just the drives. Magnetic disks, tapes, and drives rely on delicate magnetizable coatings applied to a substrate, which can deteriorate over time if exposed to dust, pollutants, high humidity, temperature fluctuations, or strong magnetic fields. These environmental factors can accelerate physical wear, corrosion, and degradation of the recorded signals, leading to data loss if [<u>not properly controlled</u>](https://www.naa.gov.au/information-management/storing-and-preserving-information/preserving-information/preserving-magnetic-media). Protective storage, such as anti-static sleeves or enclosed containers, helps reduce exposure to dust and mechanical damage, while handling media by the edges and avoiding contact with the magnetic surfaces minimises the risk of contamination or scratching.
+
+![Copy That Floppy](./media/breaks/ctf.jpg)
+
 
 # Imaging floppy disks
 
@@ -437,6 +443,8 @@ In some cases, additional processing of a diskette may be needed. The HxC Floppy
 
 It is worth noting that disk images made from flux streams can be revisited and reinterpreted as better decoders become available in the future. Preserving the flux image alongside the sector image is always recommended for this reason.
 
+![I copied that floppy!](./media/breaks/ictf.png)
+
 # Further steps and where to get help
 
 This guide has highlighted the basic setup to get a floppy disk workstation up and running, however there will always be more to explore on this topic. This section will highlight some places to look for further information or where to get help.
@@ -481,6 +489,8 @@ Examples include:
 Some resources, while not specific to floppy disks, are useful for making decisions about preservation and data recovery. For example, groups such as DANNG offer [<u>guidance</u>](https://dannng.github.io/disk-imaging-decision-factors.html) on whether to create a full disk image or to transfer only logical files. The choice depends on your goals.
 
 The University of Glasgow has [<u>created a tool</u>](https://researchdata.gla.ac.uk/1634/) on prioritising which storage media, including floppy disks, to preserve first, considering both the condition of the media and the significance of its contents. Additionally, [<u>digital preservation publications</u>](https://www.digipres.org/publications/) offer practical case studies and examples that can help guide with floppy disk preservation. The Software Preservation Network is also a good place to look for resources, including their recent publication on [<u>emulation</u>](https://www.clir.org/2025/07/clir-publishes-an-overview-of-emulation-as-a-preservation-method/).
+
+![Rainbow ribbon cable](./media/breaks/ribbon.png)
 
 # Contributors
 
@@ -572,8 +582,10 @@ Mark Garlanger
 
 Ethan Gates
 
-<span class="mark">Julianna Barrera-Gomez</span>
+Julianna Barrera-Gomez
 
-<span class="mark">Vincent Joguin</span>
+Vincent Joguin
 
-<span class="mark">Mark Ogden</span>
+Mark Ogden
+
+![Future Nostalgia logo](./media/breaks/fn.png)

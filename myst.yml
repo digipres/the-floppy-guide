@@ -22,10 +22,10 @@ project:
 site:
   template: book-theme
   options:
-    logo_text: "Home"
-    #favicon: ./favicon.ico
-    #logo: ./logo-light.svg
-    #logo_dark: ./logo-dark.svg
+    #logo_text: "Home"
+    favicon: ./media/icon.png
+    logo: ./media/logo.png
+    logo_dark: ./media/logo.png
     folders: true # Do not flatten URLs
   actions:
    - title: Part of digipres.org

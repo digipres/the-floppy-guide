@@ -11,17 +11,21 @@ subject: Imaging Floppy Disks
 tags:
 - Floppy Disks
 - Media Migration
-thumbnail: ./Floppy_Disk_Guide.jpg
+thumbnail: ./media/Floppy_Disk_Guide_512.jpg
+numbering:
+  headings: true
 exports:
-  - format: pdf
-    #template: plain_latex_book # Needs LaTeX
-    #template: lapreprint-typst # Needs Typst
-    template: https://github.com/myst-templates/plain_typst_book.git # Needs Typst
-    logo: "Floppy_Disk_Guide.jpg"
+  - format: typst
+    # Needs LaTeX
+    #template: plain_latex_book
+    # Needs Typst
+    #template: lapreprint-typst
+    template: https://github.com/myst-templates/plain_typst_book.git
+    cover: "./media/Floppy_Disk_Guide.jpg"
+    cover_width: 16 #cm
     kind: Community Guide
-    # These two are documented but not supported yet it seems:
-    # theme: "red.darken(20%)"
-    # paper-size: "A4"
+    colortheme: "red.darken(50%)"
+    show_pagenumber: true
     output: index.pdf
 downloads:
   - file: index.md
