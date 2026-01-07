@@ -22,6 +22,7 @@ exports:
     #template: lapreprint-typst
     template: https://github.com/myst-templates/plain_typst_book.git
     cover: "./media/Floppy_Disk_Guide.jpg"
+    cover_width: 16 #cm
     kind: Community Guide
     colortheme: "red.darken(50%)"
     show_pagenumber: true
