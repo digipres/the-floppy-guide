@@ -81,6 +81,8 @@ The sections of the guide that will be covered are as follows:
 
 As a side note, floppies, floppy disk, carriers and disks will be used interchangeably throughout this guide.
 
+![section separator - a rainbow ribbon cable](./media/breaks/ribbon.png)
+
 # Identifying your carrier
 
 The first step in setting up your workflow is to identify your floppy disk. There are a number of resources out there to identify the carriers in your collection, including [<u>Know Your Digital Storage Media</u>](https://lib.utsa.edu/knowyourmedia/index.html) by UTSA Libraries Special Collections and [<u>The Museum of Obsolete Media</u>](https://obsoletemedia.org/). As a reminder, this guide will only be covering 8-inch, 5.25-inch, 3.5-inch and 3-inch floppy disks. There are more types of floppy disks out there, as helpfully highlighted by [<u>the Obsolete Media museum</u>](https://obsoletemedia.org/data/floppy/), but these are not covered in this guide.
@@ -108,7 +110,7 @@ The labels of floppy disks are able to highlight a number of things:
 
 - **The method of encoding data on (‘density’ of) the disk.** Floppy disks evolved through different data encoding methods, and improvements in drive technology, each increasing the amount of data that could be stored. SD (Single Density) disks used [<u>FM (Frequency Modulation)</u>](https://en.wikipedia.org/wiki/Frequency_modulation_encoding) encoding and were among the earliest formats. This was followed by DD (double density), which employed [<u>MFM (Modified Frequency Modulation)</u>](https://en.wikipedia.org/wiki/Modified_frequency_modulation) encoding and roughly doubled the capacity. At the same time some systems used [<u>Group Coded Recording (GCR)</u>](https://en.wikipedia.org/wiki/Group_coded_recording), derived from a system first used on magnetic tapes. Later, as drive technology improved, MFM encoded HD (high density) disks featuring improved magnetic coatings that could store 1.2MB (5.25-inch) or 1.44MB (3.5-inch). Very rarely, ED (extra high density) disks appeared, capable of 2.88MB on 3.5-inch floppies. These labels not only showcase the expected capacity on the disks, but also serve as guidance for drive compatibility. This will be discussed in more detail in the next section.
 
-- **Operating system or formatting type.** For instance, a disk might be labeled ‘DOS’ to indicate it had been formatted for IBM PC-compatible systems running MS-DOS. Others might carry labels for [<u>Macintosh (HFS)</u>](https://en.wikipedia.org/wiki/Hierarchical_File_System_(Apple)), [<u>CP/M</u>](https://en.wikipedia.org/wiki/CP/M), or other environments.
+- **Operating system or formatting type.** For instance, a disk might be labeled ‘DOS’ to indicate it had been formatted for IBM PC-compatible systems running MS-DOS. Others might carry labels for [<u>Macintosh (HFS)</u>](https://en.wikipedia.org/wiki/Hierarchical_File_System_(Apple)), [<u>CP/M</u>](https://en.wikipedia.org/wiki/CP%2FM), or other environments.
 
 :::{figure}
 :label: floppy-details
@@ -127,7 +129,7 @@ Another floppy disk variant to watch out for in old collections are the [<u>‘F
 
 Once you have a better idea of what you have in the collection, the hardware can be sourced for the imaging.
 
-![3.5 inch floppy disk](./media/breaks/35-flop.png)
+![section separator - a rainbow ribbon cable](./media/breaks/ribbon.png)
 
 # Acquiring Hardware
 
@@ -269,7 +271,7 @@ Lastly, consider buying full vintage systems instead of isolated parts. Older PC
 
 As a general rule, it’s wise to build redundancy into your setup. If possible, purchase more than one of each type of needed drive. Having a spare ensures that a hardware failure won't halt your process, and also allows for cross-testing in case of disk read issues. It’s also good practice to keep a record of where your hardware was sourced, what condition it arrived in, and any modifications you made. This documentation can be invaluable if problems arise later or if you pass the equipment on to someone else.
 
-![Greaseweasle](./media/breaks/gw.png)
+![section separator - a rainbow ribbon cable](./media/breaks/ribbon.png)
 
 #  Testing, cleaning and maintaining carriers and hardware
 
@@ -353,7 +355,7 @@ When a drive is stored for an extended period or transported, [<u>additional pre
 
 It is also important to consider the magnetic media itself, not just the drives. Magnetic disks, tapes, and drives rely on delicate magnetizable coatings applied to a substrate, which can deteriorate over time if exposed to dust, pollutants, high humidity, temperature fluctuations, or strong magnetic fields. These environmental factors can accelerate physical wear, corrosion, and degradation of the recorded signals, leading to data loss if [<u>not properly controlled</u>](https://www.naa.gov.au/information-management/storing-and-preserving-information/preserving-information/preserving-magnetic-media). Protective storage, such as anti-static sleeves or enclosed containers, helps reduce exposure to dust and mechanical damage, while handling media by the edges and avoiding contact with the magnetic surfaces minimises the risk of contamination or scratching.
 
-![Copy That Floppy](./media/breaks/ctf.jpg)
+![section separator - a rainbow ribbon cable](./media/breaks/ribbon.png)
 
 
 # Imaging floppy disks
@@ -443,7 +445,7 @@ In some cases, additional processing of a diskette may be needed. The HxC Floppy
 
 It is worth noting that disk images made from flux streams can be revisited and reinterpreted as better decoders become available in the future. Preserving the flux image alongside the sector image is always recommended for this reason.
 
-![I copied that floppy!](./media/breaks/ictf.png)
+![section separator - a rainbow ribbon cable](./media/breaks/ribbon.png)
 
 # Further steps and where to get help
 
@@ -490,7 +492,7 @@ Some resources, while not specific to floppy disks, are useful for making decisi
 
 The University of Glasgow has [<u>created a tool</u>](https://researchdata.gla.ac.uk/1634/) on prioritising which storage media, including floppy disks, to preserve first, considering both the condition of the media and the significance of its contents. Additionally, [<u>digital preservation publications</u>](https://www.digipres.org/publications/) offer practical case studies and examples that can help guide with floppy disk preservation. The Software Preservation Network is also a good place to look for resources, including their recent publication on [<u>emulation</u>](https://www.clir.org/2025/07/clir-publishes-an-overview-of-emulation-as-a-preservation-method/).
 
-![Rainbow ribbon cable](./media/breaks/ribbon.png)
+![section separator - a rainbow ribbon cable](./media/breaks/ribbon.png)
 
 # Contributors
 
@@ -588,4 +590,3 @@ Vincent Joguin
 
 Mark Ogden
 
-![Future Nostalgia logo](./media/breaks/fn.png)
