@@ -412,7 +412,7 @@ There are several common issues to look out for during analysis. A disk that was
 
 <img src="./media/image1.png" />
 
-Flux stream shown in HxC Floppy Emulator. This flux stream is of a mouldy floppy disk and you can see the mould have been dragged across the floppy in a circular motion.
+Flux stream shown in HxC Floppy Emulator. This flux stream is of a mouldy floppy disk that has been read. The mould residue has stuck to the floppy drive head and kept reading, this increased the distance to the magnetic medium and scratched the disk surface. This is also referred to as the 'bulldozer effect'. More information on this and how to prevent it can be found in the Cleaning Floppy Disk Drives section of this guide. 
 :::
 
 :::{figure}
